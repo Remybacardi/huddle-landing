@@ -1,0 +1,53 @@
+
+// ### Primary
+
+// - Pink: hsl(322, 100%, 66%)
+// - Light Pink: hsl(321, 100%, 78%)
+// - Light Red: hsl(0, 100%, 63%)
+
+// ### Neutral
+
+// - Very Dark Cyan: hsl(192, 100%, 9%)
+// - Very Pale Blue: hsl(207, 100%, 98%)
+
+:root{
+  --color-primary: hsl(322, 100%, 66%);
+  --color-primary-light: hsl(321, 100%, 78%);
+  --color-primary-dark: hsl(0, 100%, 63%);
+
+  --color-dark:hsl(192, 100%, 9%);
+  --color-light: hsl(207, 100%, 98%);
+  --color-grey: #858080;
+  
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+
+  @media (max-width: 690px) {
+    font-size: 50%; //8px
+  }
+}
+
+body {
+  font-family: open sans, sans-serif;
+  max-width: 144rem;
+  margin: 0 auto;
+}
+
+main {
+  width: 100%;
+  margin: 0 auto;
+}
